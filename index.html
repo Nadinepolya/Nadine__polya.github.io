@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Nail Service</title>
+	<style type="text/css">
+	  		#featured { width: 940px; height: 450px; background: #009cff url('orbit/loading.gif') no-repeat center center; overflow: hidden; }
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/orbit.css">
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+	<section id="first">
+		<div class="container">
+				<header>
+					<div class="mail animated slideInLeft">
+						Nadine_polya@mail.ru
+					</div>
+					<div class="logo animated slideInDown">
+						<span>надежда</span> поляковская
+					</div>
+					<div class="phone animated slideInRight">
+						+7 (996) 728-51-00
+					</div>
+				</header>
+				    <h1 class="head animated slideInUp">
+						<span>Профессиональные услуги</span>ногтевого сервиса
+					</h1>
+					<a class="button scrollto go_to animated fadeIn" href="#about">Портфолио</a>
+				</div>
+	</section>
+		
+		<section id="about">
+			<h2>
+				мои работы
+			</h2>
+		<div id="featured" class="featured"> 
+			<img src="img/img1.jpg" width="700" alt="ногти" rel="ногти"/>
+			<img src="img/img2.jpg" width="700" alt="ногти"/>
+			<img src="img/img3.jpg"	width="700" alt="ногти"/>
+			<img src="img/img4.jpg"	width="700" alt="ногти"/>
+		</div> 
+		<span class="orbit-caption" id="ezioCaption"> <em></em>  <strong></strong></span>
+		<span class="orbit-caption" id="marcusCaption"><em></em> <a href="" target="" style="color: #fff">link</a></span>
+</div>
+
+			<div class="social-block clearfix">
+				<a class="social" href="#" target="_blank">
+				    <img src="img/vk.png">
+				</a>
+				<a class="social" href="#">
+				    <img src="img/fb.png">
+				</a>
+				<a class="social" href="https://vk.com/public164184353" target="_blank">
+				   <img src="img/yt.png">
+				</a>
+			</div>
+		</section>
+		<footer>
+			<div class="container clearfix">
+				<div class="logo">
+						<span>надежда</span> поляковская
+				</div>
+				<div class="credits">
+					    
+				</div>
+					<div class="phone">
+						+7 (996) 728-51-00
+					</div>
+			</div>
+			
+		</footer>
+		<!-- jQuery -->
+    	<script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Main Scrypt File -->
+    	<script src="js/main.js"></script>
+		<script src="jquery.mCustomScrollbar.concat.min.js"></script>
+		<script type="text/javascript" src="jquery-1.4.1.min.js"></script>
+		<script type="text/javascript" src="jquery.orbit.min.js"></script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit({
+					'bullets': true,
+					'timer' : true,
+					'animation' : 'horizontal-slide'
+				});
+			});
+		</script>
+</body>
+</html>
